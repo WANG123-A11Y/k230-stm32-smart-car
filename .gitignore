@@ -1,0 +1,22 @@
+# build outputs
+stm32/build/
+stm32/Debug/
+stm32/Release/
+*.elf
+*.map
+*.o
+*.d
+
+# python
+__pycache__/
+*.pyc
+
+# local secrets (keep real credentials OUT of the repo)
+config_local.py
+secrets.py
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
